@@ -1,0 +1,37 @@
+
+.barlow-condensed-extrabold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.signika-negative{
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-color{
+  color: #28fb7c;
+}
+
+.font-color2{
+  color: #44eec6;
+}
+
+.font-colors-gradients{
+  background: linear-gradient(to right, #20b8eb, #28fb7c,#1c5ee1, #44eec6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.justify-text {
+  text-align: justify;
+}
