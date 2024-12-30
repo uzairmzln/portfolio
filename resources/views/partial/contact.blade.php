@@ -1,30 +1,28 @@
-<section class="bg-dark p-4">
-    <div class="container p-4">
-        <div class="card">
-            <h2 class="px-3 fw-bold">Any Inquiries?<span><h3 class="">Contact me :</h3></span></h2>
-            <div class="card-body">
-
-                <div class="form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
-                    </div>
-
-                    <div class="py-4">
-                        <a href="#" class="btn btn-success">Submit</a>
-                    </div>
+<section id="contact" class="min-vh-100 d-flex align-items-center bg-dark text-white">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center mb-5">
+                    <h2 class="display-4 fw-bold">Any Inquiries?</h2>
+                    <p class="lead">Contact me:</p>
                 </div>
-
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control form-control-lg" id="name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control form-control-lg" id="message" rows="6"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success btn-lg px-5">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

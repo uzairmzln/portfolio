@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- CSS FILE -->
     <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/home.css">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css">
     <!-- BOOTSTRAP -->
