@@ -3,7 +3,7 @@
     "builds": [
       {
         "src": "api/index.php",
-        "use": "@vercel-php"
+        "use": "@vercel/php"
       }
     ],
     "routes": [
@@ -15,7 +15,7 @@
     "env": {
       "APP_ENV": "production",
       "APP_DEBUG": "false",
-      "APP_URL": "https://your-vercel-app.vercel.app",
+      "APP_URL": "https://portfolio-uzairmzln.vercel.app",
       "DB_CONNECTION": "mysql",
       "DB_HOST": "your-database-host",
       "DB_PORT": "3306",
