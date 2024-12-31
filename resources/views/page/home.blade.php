@@ -11,7 +11,7 @@
                     <h3 class="h2 mb-4 signika-negative">
                         I am an <span class="font-color2">Analyst Programmer</span>
                     </h3>
-                    <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+                    <a href="#journey" class="btn btn-outline-light btn-lg mt-3">
                         My Journey
                         <i class="fa-solid fa-arrow-down ms-2"></i>
                     </a>
@@ -23,6 +23,10 @@
     <!-- Reuse the About section -->
     @include('partial.about')
 
+    <!-- Reuse the Journey section -->
+    @include('partial.journey')
+
     <!-- Reuse the Contact section -->
     @include('partial.contact')
+    
 @endsection
