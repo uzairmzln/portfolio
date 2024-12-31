@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'contact')
+@section('title', 'Contact')
 
 @section('content')
     @include('partial.contact')

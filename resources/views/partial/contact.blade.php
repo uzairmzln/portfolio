@@ -1,4 +1,4 @@
-<section id="contact" class="min-vh-100 d-flex align-items-center bg-dark text-white">
+<section id="contact" class="min-vh-100 d-flex align-items-center bg-light text-dark">
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-8">

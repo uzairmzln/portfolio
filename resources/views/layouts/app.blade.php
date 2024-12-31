@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'Portfolio')</title>
     <link rel="stylesheet" href="{{ asset('css/font.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/floating.css') }}">
 </head>
 <body>
     <header>
