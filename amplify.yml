@@ -1,0 +1,16 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm ci
+            - composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
+        build:
+          commands:
+            - npm run build
+      artifacts:
+        baseDirectory: public
+        files:
+          - '**/*'
+    appRoot: .
